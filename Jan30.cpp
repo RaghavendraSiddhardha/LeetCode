@@ -12,8 +12,9 @@
 
 // Input: temperatures = [30,60,90]
 // Output: [1,1,0]
-#include<vector>
 #include<iostream>
+#include<vector>
+
 using namespace std;
 class Solution {
 public:
