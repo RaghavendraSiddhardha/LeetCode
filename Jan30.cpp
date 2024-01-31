@@ -14,6 +14,7 @@
 // Output: [1,1,0]
 
 
+
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& temperatures) {
