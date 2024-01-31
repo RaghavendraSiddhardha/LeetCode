@@ -12,9 +12,9 @@
 
 // Input: temperatures = [30,60,90]
 // Output: [1,1,0]
-
-
-
+#include<vector>
+#include<iostream>
+using namespace std;
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& temperatures) {
@@ -34,3 +34,12 @@ public:
         return ans;
     }
 };
+
+int main(){
+    Solution s;
+    vector<int> temps = {1,2,3,4};
+    vector<int> ans = s.dailyTemperatures(temps);
+    for(auto i:ans){
+        cout<<i<<" ";
+    }
+}
